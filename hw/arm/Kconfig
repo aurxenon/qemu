@@ -266,6 +266,11 @@ config COLLIE
     select ZAURUS  # scoop
     select STRONGARM
 
+config MOON3
+    bool
+    select PFLASH_CFI01
+    select STRONGARM
+
 config SX1
     bool
     select OMAP
